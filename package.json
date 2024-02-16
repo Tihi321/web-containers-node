@@ -1,0 +1,20 @@
+{
+  "name": "web-containers-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Tihi321/web-containers-node.git",
+  "author": "Tihomir Selak <tknox.dr@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "vite": "^5.1.3"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@webcontainer/api": "^1.1.9"
+  }
+}
